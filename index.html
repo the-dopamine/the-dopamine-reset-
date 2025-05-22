@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Dopamine Reset eBook | HK SAHAM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #1a1a1a;
+      border-radius: 16px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #ffd700;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ccc;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .intro {
+      margin-top: 3rem;
+      padding: 2rem;
+      background-color: #121212;
+      border-radius: 16px;
+    }
+    .intro h2 {
+      font-size: 1.8rem;
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+    .intro p {
+      color: #ccc;
+      margin-bottom: 1rem;
+    }
+    .benefits {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .benefit {
+      flex: 1 1 45%;
+      background-color: #1a1a1a;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .benefit:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+    .whats-inside {
+      margin-top: 3rem;
+      padding: 2rem;
+      background-color: #121212;
+      border-radius: 16px;
+    }
+    .whats-inside h3 {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+      color: #ffd700;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .cta button {
+      background-color: #ffd700;
+      color: #0d0d0d;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+    .cta button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+    .testimonials {
+      margin-top: 4rem;
+      background-color: #1a1a1a;
+      padding: 2rem;
+      border-radius: 16px;
+    }
+    .testimonial {
+      margin-bottom: 1.5rem;
+      font-style: italic;
+      border-left: 4px solid #ffd700;
+      padding-left: 1rem;
+    }
+    .faq {
+      margin-top: 4rem;
+      background-color: #121212;
+      padding: 2rem;
+      border-radius: 16px;
+    }
+    .faq h3 {
+      color: #ffd700;
+      margin-bottom: 1rem;
+    }
+    .faq-item {
+      margin-bottom: 1.5rem;
+    }
+    .faq-item strong {
+      color: #fff;
+    }
+    .book-image {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .book-image img {
+      max-width: 300px;
+      border-radius: 12px;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .book-image img:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+    @media (max-width: 768px) {
+      .benefits {
+        flex-direction: column;
+      }
+      .benefit {
+        flex: 1 1 100%;
+      }
+    }
+	.cta-btn {
+  display: inline-block;
+  background-color: #ffd700;
+  color: #0d0d0d;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.cta-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <h1>Reclaim Your Focus, Energy & Life in 7 Days</h1>
+      <p>Break free from distractions, addiction, and burnout with “The Dopamine Reset” by HK SAHAM — your practical guide to clarity and control.</p>
+    </section>
+
+    <section class="intro">
+      <h2>Feeling Lost in a Loop of Distractions?</h2>
+      <p>You're not alone. Social media. Porn. Endless scrolling. Dopamine burnout is real — and it's silently draining your energy, killing your motivation, and hijacking your brain's reward system.</p>
+      <p><strong>But there's a way out.</strong> This 7-day plan gives you the tools to reset your dopamine system, regain clarity, and take back control of your mind — without going cold turkey or deleting your life.</p>
+    </section>
+
+    <section class="benefits">
+      <div class="benefit">✅ Regain laser-sharp focus</div>
+      <div class="benefit">✅ Break free from digital addictions</div>
+      <div class="benefit">✅ Boost your natural motivation</div>
+      <div class="benefit">✅ Structure your day for mental clarity</div>
+      <div class="benefit">✅ Build lasting self-discipline</div>
+      <div class="benefit">✅ Feel more energized and fulfilled</div>
+    </section>
+
+    <section class="whats-inside">
+      <h3>What’s Inside the eBook?</h3>
+      <ul>
+        <li>✔️ 7-day step-by-step reset plan</li>
+        <li>✔️ Daily dopamine detox actions</li>
+        <li>✔️ Psychology-backed strategies</li>
+        <li>✔️ 30-Day Printable Habit Tracker</li>
+        <li>✔️ Reflection prompts to keep you aware and aligned</li>
+        <li>✔️ No fluff — 100% action-driven content</li>
+      </ul>
+    </section>
+
+    <div class="book-image">
+      <img src="https://i.postimg.cc/TPB78YxC/Neutral-Minimalist-Aesthetic-Time-Management-Ebook-Cover.jpg" alt="Dopamine Reset eBook Cover">
+    </div>
+
+    <section class="cta">
+    <a href="https://gumroad.com/a/676748051/emzcl" class="cta-btn" target="_blank">Start the Reset Today</a>
+    </section>
+
+    <section class="testimonials">
+      <div class="testimonial">“Day 2 of this guide and I’ve already deleted 5 apps. My mind feels lighter. 🔥” – Ryan J., UK</div>
+      <div class="testimonial">“I didn’t realize how addicted I was until I read this. It’s like a detox for your brain.” – Mira T., Student</div>
+      <div class="testimonial">“I’ve tried digital detoxes before, but this book actually gave me structure and purpose. Highly recommend.” – Eli B., Entrepreneur</div>
+      <div class="testimonial">“The 30-Day Habit Tracker changed everything for me. This is more than a book — it’s a reset button.” – Ava K., Germany</div>
+      <div class="testimonial">“Honestly, I was skeptical… but I’m glad I took the chance. Every Gen Z needs this.” – Noah S., U.S.</div>
+    </section>
+
+    <section class="faq">
+      <h3>Frequently Asked Questions</h3>
+      <div class="faq-item">
+        <strong>Q: Who is this book for?</strong>
+        <p>A: This book is designed for anyone struggling with distractions, low motivation, and digital burnout — whether you're a student, creator, entrepreneur, or someone on a self-improvement journey.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Q: What results can I expect?</strong>
+        <p>A: Within 7 days, you'll experience improved focus, more energy, and stronger mental clarity — without giving up your phone or going offline completely.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Q: Do I need any prior knowledge to follow this guide?</strong>
+        <p>A: Not at all. The steps are simple, actionable, and beginner-friendly. No fluff — just a straight path to dopamine control and better focus.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Q: Is this a physical or digital book?</strong>
+        <p>A: It’s a digital eBook (PDF) — you’ll get instant access after purchase and can read it on your phone, tablet, or computer.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Q: Is there a refund policy?</strong>
+        <p>A: Due to the digital nature of this product, refunds are not offered. But if you’re not satisfied, message me — I genuinely want to help.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Q: Can I become an affiliate?</strong>
+        <p>A: Yes! Message @the_dopamine_reset on Instagram or DM via the Gumroad page to join the affiliate team and earn commissions by sharing the book.</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
